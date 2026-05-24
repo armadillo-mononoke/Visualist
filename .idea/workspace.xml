@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0185a1c7-f82f-40bc-bc80-02b3ef2b093f" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistanceAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EdgesToFlow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lisa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeetingPoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NearestNeighbourAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PointsInGrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PointsInPolygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PointsToEdge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PointsToLine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PointsToNNCluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PointsToProportional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PointsToSplitLine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TimeFormater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/visualist.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/visualist_en.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/visualist_fr.qm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/visualist_fr.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/bishop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/choropleth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/dynamic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/excel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/global.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/graduated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/kde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/knn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/lisa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/localc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/localg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/localgstar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/localmoran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/lsm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/proportional.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/queen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/relational.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/rook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/rtm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/vide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/visualist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/visualist2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/adbscan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/crand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/gamma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/geary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/geary_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/geary_local_mv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/getisord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/join_counts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/join_counts_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/join_counts_local_bv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/join_counts_local_mv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/lee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/losh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/map_comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/mixture_smoothing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/moran.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/silhouettes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/smaup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/smoothing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/tabular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/topo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/explore/esda/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/frozen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lazy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/alpha_shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/kdtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/_accessors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/_shapely.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/atomic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/tabular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/tests/test_accessors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/tests/test_shapely.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/ops/tests/test_tabular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/polygonQuadTreeStructure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/rtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/segmentLocator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/shapely_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/sphere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/standalone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/cg/voronoi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/fileio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/geotable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/geotable/dbf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/geotable/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/geotable/shp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/geotable/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/geotable/wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/arcgis_dbf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/arcgis_swm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/arcgis_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/csvWrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/dat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/gal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/geobugs_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/geoda_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/gwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/mat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/mtx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/pyDbfIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/pyShpIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/stata_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/wk1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/iohandlers/wkt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/util/shapefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/util/weight_converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/util/wkb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/io/util/wkt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/test_NameSpace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/_contW_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/adjtools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/contiguity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/raster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/set_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/spatial_lag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/spintW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/lib/weights/weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/access/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/mgwr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/spglm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/spint/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/spopt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/spreg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/spvcm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/model/tobler/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/package_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/tests/test_imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/viz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pysal/viz/mapclassify/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/edgebundlingUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/renderers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/styles/ChoroplethMap.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/styles/Edges.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/styles/EdgesPoints.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/styles/Flow.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/styles/LisaCotypes.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/styles/asLine.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/styles/labels.qml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualist.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualist_alg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualist_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualist_provider.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rammus-lol&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/armadillo-mononoke/Visualist.git&quot;,
+    &quot;accountId&quot;: &quot;b69aff98-acf5-4f66-93c6-4e55ebf1f980&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3E5xPXgg0s51mj6mt8gPGk5EFay" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.24374.152" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0185a1c7-f82f-40bc-bc80-02b3ef2b093f" name="Changes" comment="" />
+      <created>1779482208284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779482208284</updated>
+      <workItem from="1779482209956" duration="1121000" />
+      <workItem from="1779483891458" duration="122000" />
+      <workItem from="1779567250909" duration="3081000" />
+      <workItem from="1779652613083" duration="3094000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1779654589192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779654589192</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+</project>

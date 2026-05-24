@@ -1,0 +1,103 @@
+choroplethmap:
+  displayName:  Choropleth Map
+  icon:         choropleth.png
+  group:        Cartography
+  helpUrl:      '#choropleth-map'
+  description:  >
+    Choropleth maps represent a quantity (number of events, percentages, etc.) by color (or pattern)
+    for administrative areas. They allow values to be compared by region and demographic information to be used
+    to weight measurements.
+gridmap:
+  displayName:  Grid Map
+  icon:         grid.png
+  group:        Cartography
+  helpUrl:      '#grid-map'
+  description:  >
+    The grid map divides the area into squares and represents the number of events within each cell.
+    The operation is quite simple. The program creates a layer of polygons (squares) whose size can be configured.
+    Then the number of events in each square is counted.
+    The choice of the grid size can be guided by the average distance expected if the points were randomly distributed.
+graduatedlinemap:
+  displayName:  Graduated Lines Map
+  icon:         graduated.png
+  group:        Cartography
+  helpUrl:      '#graduated-lines-map'
+  description:  >
+    Graduated line maps represent the number of events along roads (polyline layer).
+    Events are projected onto the segments closest to their positions,
+    but only if the distance between them is less than a configurable threshold (e. g. 50 meters)
+graduatedsegmentedlinemap:
+  displayName:  Graduated Segmented Lines Map
+  icon:         graduated.png
+  group:        Cartography
+  helpUrl:      '#graduated-segmented-lines-map'
+  description:  >
+    Graduated Segmented line maps represent the number of events along roads (polyline layer).
+    The algorithm starts by dividing the roads into segments whose length can be configured.
+    The segment closest to each point is then identified. Events are projected onto the
+    segments closest to their positions, but only if the distance between them is less than
+    a configurable threshold (e. g. 50 meters).
+nearestneighboursmap:
+  displayName:  Nearest Neighbours Clusters Map
+  icon:         knn.png
+  group:        Cartography
+  helpUrl:      '#nearest-neighbours-clusters-map'
+  description:  >
+    The map shows the hotspots identified by the analysis of the closest neighbours.
+    This algorithm is a simplified version of the algorithm in CrimeStat from Ned Levine.
+proportionalsymbolsmap:
+  displayName:  Proportional Symbols Map
+  icon:         proportional.png
+  group:        Cartography
+  helpUrl:      '#proportional-symbols-map'
+  description:  >
+    Proportional symbol maps group all points with the same position together at a single point.
+    A circle whose size is proportional to the number of events is then created.
+
+    The points can also be grouped with a polygon layer to represent all events within each area as a single aggregate.
+lisamap:
+  displayName:  Spatial Autocorrelation Map
+  icon:         lisa.png
+  group:        Cartography
+  helpUrl:      '#spatial-autocorrelation-map'
+  description:  >
+    Analysis of local spatial autocorrelation statistics.
+    The plugin cover the Local Moran's I (Clusters and Outliers Analysis), and Getis-Ord Gi* (Hot-Spot Analysis) statistics.
+nearestneighbouranalysis:
+  displayName:  Nearest Neighbour Analysis
+  icon:         knn.png
+  group:        Spatial statistics
+  helpUrl:      '#k-nearest-neighbours-analysis'
+  description:  >
+    Plot the k-nearest neighbour distances and calculate the NN-Index.
+meetingpointanalysis:
+  displayName:  Meeting Points Analysis
+  icon:         relational.png
+  group:        Spatiotemporal Analysis
+  helpUrl:      '#meeting-points-analysis'
+  description:  >
+    Calculate spatiotemporal matches between two layers of points.
+distanceanalysis:
+  displayName:  Distance Analysis
+  icon:         relational.png
+  group:        Spatial statistics
+  helpUrl:      '#distance-analysis'
+  description:  >
+    Distance analysis.
+pointstoedge:
+  displayName:  Edge Map
+  icon:         relational.png
+  group:        Cartography
+  helpUrl:      '#edge-map'
+  description:  >
+    Edge Map from points to display flows.
+flowmap:
+  displayName:  Flow Map
+  icon:         flow.png
+  group:        Cartography
+  helpUrl:      '#flow-map'
+  description:  |+
+    Implementation of force-directed edge bundling for the QGIS Processing toolbox as described in
+    https://anitagraser.com/2017/10/08/movement-data-in-gis-8-edge-bundling-for-flow-maps/
+
+    You can either first use one of the clustering algorithms and then bundle the lines, or you can directly bundle the lines (which, on the downside, will take significantly longer). Please double check the input parameters to fit your data (e.g. the "initial step size" in the "edge bundling algorithm" dependent on the coordinate reference system of your data).
