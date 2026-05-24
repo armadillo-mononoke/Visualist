@@ -111,7 +111,6 @@ class LocalIndicatorSpatialA(VisualistAlgorithm):
                 self.SIGNIFICATIVITY,
                 self.tr("Significativity threshold"),
                 QgsProcessingParameterNumber.Double,
-                defaultValue=0.05,
                 optional=True
             )
         )
@@ -233,12 +232,12 @@ class LocalIndicatorSpatialA(VisualistAlgorithm):
             attrs.append(float(results.z_sim[current]))
             if self.lisa == 0:
                 attrs.append(float(results.Is[current]))
-                if p_value > 0:
-                    if p_value < significativity:
-                        c = cotype[results.q[current]]
-                    else:
-                        c = "Not significative"
+                c = cotype[results.q[current]]
+                if significativity > 0 and p_value > significativity:
+                    #Verify if the p-value exceeds the user's significance threshold, if defined.
+                    c = "Not significative"
                 attrs.append(c)
+
             elif self.lisa == 1:
                 attrs.append(float(results.Gs[current]))
             output_feature.setAttributes(attrs)
