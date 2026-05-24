@@ -233,10 +233,11 @@ class LocalIndicatorSpatialA(VisualistAlgorithm):
             attrs.append(float(results.z_sim[current]))
             if self.lisa == 0:
                 attrs.append(float(results.Is[current]))
-                if p_value < significativity:
-                    c = cotype[results.q[current]]
-                else:
-                    c = "Not significative"
+                if p_value > 0:
+                    if p_value < significativity:
+                        c = cotype[results.q[current]]
+                    else:
+                        c = "Not significative"
                 attrs.append(c)
             elif self.lisa == 1:
                 attrs.append(float(results.Gs[current]))
