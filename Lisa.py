@@ -109,7 +109,7 @@ class LocalIndicatorSpatialA(VisualistAlgorithm):
         self.addParameter(
             QgsProcessingParameterNumber(
                 self.SIGNIFICATIVITY,
-                self.tr("Seuil de significativité"),
+                self.tr("Significativity threshold"),
                 QgsProcessingParameterNumber.Double,
                 defaultValue=0.05,
                 optional=True
